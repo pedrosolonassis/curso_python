@@ -1,0 +1,16 @@
+Entre as leituras sobre política externa na UEPB e as análises sobre o avanço 
+da extrema-direita na Europa, descobri que o mundo não é feito apenas de 
+discursos, mas de padrões. 
+
+No meu TCC, percebi que por trás de cada movimento 
+político existia uma montanha de dados esperando para ser interpretada.
+
+A mesma curiosidade que me levava a entender as relações entre Estados 
+começou a me atrair para as linhas de código. 
+
+Percebi que ser um analista é, essencialmente, ser um tradutor: transformar números brutos em narrativas 
+estratégicas. Saí dos textos diplomáticos para as bibliotecas de Python.
+
+A migração de área não foi um abandono, mas uma evolução. Afinal, tanto na 
+diplomacia quanto na tecnologia, o objetivo final é o mesmo: extrair 
+sentido do caos para tomar decisões melhores.

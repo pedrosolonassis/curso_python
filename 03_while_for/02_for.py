@@ -1,0 +1,23 @@
+# for: objeto que você quer percorrer
+
+# %%
+
+nome = "Pedro Solon"
+
+for letra in nome:
+    print(letra)
+
+# %%
+
+numero = 2
+max_numero = 100
+
+for i in range(1, max_numero + 1):
+    print(numero, "X", i, "=", numero * i)
+
+# %%
+# Valores divisíveis por 4
+
+for i in range(4, 101):
+    if i % 4 == 0:
+        print(i, "é divisível por 4")
