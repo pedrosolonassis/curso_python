@@ -11,3 +11,11 @@ numero = int(input("Digite um número inteiro para calcular a raiz quadrada: "))
 raiz = round(numero ** (0.5), 2)  # Número pode ser elevado a 1/2
 
 print ("A raiz quadrada de", numero, "é:", raiz)
+
+# Faça um programa que exiba o triplo de um número inserido pelo usuário.
+
+numero = float(input("Entre com um número: "))
+
+triplo = numero * 2
+
+print("O triplo de", numero, "é", triplo)

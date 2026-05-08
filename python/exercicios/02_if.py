@@ -102,3 +102,30 @@ maior = max(notas)
 print("A média das notas é:", media)
 print("A menor nota é:", menor)
 print("A maior nota é:", maior)
+
+# Faça o programa de uma sorveteria, onde o usuário pode escolher:
+# Tipo de sorvete: casquinha (R$1,00), cascão (R$2,50), cestinha (R$4,00)
+# Sabor do sorvete: morango, creme, chocolate
+# Cobertura: Caramelo (R$1,50), morango (R$1,50), chocolate (R$1,50), sem cobertura (R$0,00)
+# Apresente o valor a ser pago
+
+tipo = input("Escolha o tipo de sorvete [casquinha (R$1,00) / cascão (R$2,50) / cestinha (R$4,00)]: ").lower()
+
+sabor = input("Escolha o sabor do sorvete (Morango, Creme, Chocolate): ").lower()
+
+cobertura = input("Escolha a cobertura [Caramelo (R$1,50) / Morango (R$1,50) / Chocolate (R$1,50) / Sem cobertura (R$0,00)]: ").lower()
+
+valor = 0
+if tipo == "casquinha":
+    valor += 1
+elif tipo == "cascão":
+    valor += 2.5
+elif tipo == "cestinha":
+    valor += 4
+
+if cobertura in ["caramelo", "morango", "chocolate"]:
+    valor += 1.5
+
+txt = f"Seu sorvete é do tipo {tipo}, sabor {sabor} e cobertura {cobertura}. O valor a ser pago é R${valor:.2f}"
+
+print(txt)

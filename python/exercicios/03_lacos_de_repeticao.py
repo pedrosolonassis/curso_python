@@ -8,7 +8,7 @@ while qtde_entradas > 0:
     soma += altura # Ou soma = soma + altura
     qtde_entradas -= 1 # Ou qtde_entradas = qtde_entradas - 1
 
-print("A soma das alturas é:", soma)
+print(f"A soma das alturas é: {soma}")
 
 # Com o for:
 
@@ -45,7 +45,7 @@ while True:
         break
     saldo_total += float(saldo) # Ou saldo_total = saldo_total + float(saldo)
 
-print("O saldo total é:", saldo_total)
+print(f"O saldo total é: R${saldo_total}")
 
 # Faça um programa que conte quantas vezes a letra "a" aparece em uma frase digitada pelo usuário.
 
@@ -56,6 +56,4 @@ for letra in frase:
     if letra == "a":
         contador_a += 1
 
-print("A letra 'a' aparece", contador_a, "vezes na frase.")
-
-
+print(f"A letra 'a' aparece {contador_a} vezes na frase.")
